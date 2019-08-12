@@ -1,0 +1,54 @@
+
+* {
+    box-sizing: border-box ; 
+}
+.boxLabel {
+    display : inline-block ; 
+    border: 2px solid blue ; 
+    margin: 5px ; 
+    margin-right: 35px ;
+    padding: 5px ; 
+    background: powderblue ; 
+    width : 25% ; 
+
+}
+
+.txtBox {
+    display : inline-block ; 
+    border: 2px solid red ; 
+    margin: 5px ; 
+    padding: 5px ;
+    width: 15% ; 
+
+}
+
+.txtBoxLng {
+    display : inline-block ; 
+    border: 2px solid red ; 
+    margin: 5px ; 
+    padding: 5px ;
+    width: 33% ; 
+ 
+}
+
+.rows {
+    margin : 15px ; 
+    height: 60px ; 
+    width: 50% ; 
+    display : flex ; 
+    align-content: center  ; 
+}
+
+.inputBox {
+
+    margin : 15px ; 
+    height: 30px ; 
+    width: 15% ; 
+    display : inline-block ; 
+    align-content: center  ; 
+    padding-left: 10px ; 
+
+
+}
+
+

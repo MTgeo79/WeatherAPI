@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <title> What is the Weather? </title>
+    <link href="api.css" rel="stylesheet" > 
+
+
+</head>
+
+<body> 
+    <h1> What is the Weather?</h1>
+<div class="container" > 
+    <form id="inputForm" action="" method = "GET" onsubmit="return getData()" >
+        <input class="inputBox" id="cityID" type="text" name ="city" placeholder="Enter city name"> 
+        <input class="inputBox" id="countryID" type="text" name ="country" placeholder="Enter 2 character country code" > 
+        <input type="submit" placeholder="Lookup" value="Lookup Weather">  
+
+    </form> 
+
+    <div> 
+        <p class="rows"> <label for="cityCountryBox" class="boxLabel"> City, Country   </label>  <span id="cityCountryBox" class="txtBoxLng"> </span> </p>
+        <p class="rows"> <label for="coordBox" class="boxLabel"> Coordinates [lon/lat]   </label>  <span id="coordBox" class="txtBoxLng"> </span> </p>
+        <p class="rows"> <label for="weatherMainBox" class="boxLabel"> Weather Conditions    </label>  <span id="weatherMainBox" class="txtBoxLng"> </span> </p>
+        <p  class="rows"> <label for="tempBoxF"     class="boxLabel"> Temperature [F] [C] </label>  <span id="tempBoxF" class="txtBox"> </span> <span id="tempBoxC" class="txtBox"> </span> </p>   
+        <p  class="rows"> <label for="pressureBox" class="boxLabel"> Pressure (mbar)   </label> <span id="pressureBox" class="txtBox"> </span>  </p> 
+        <p  class="rows"> <label for="humidityBox" class="boxLabel"> Humidity (%)    </label> <span id="humidityBox" class="txtBox"> </span>   </p>  
+        <p  class="rows"> <label for="sunriseBox"  class="boxLabel"> Sunrise  </label> <span id="sunriseBox" class="txtBox"> </span>   </p>  
+        <p  class="rows"> <label for="sunsetBox"   class="boxLabel"> Sunset   </label> <span id="sunsetBox" class="txtBox"> </span>   </p>  
+        <p  class="rows"> <label for="windSpeedBox" class="boxLabel"> Wind Speed    </label> <span id="windSpeedBox" class="txtBox"> </span>   </p>  
+        <p  class="rows"> <label for="windDirBox" class="boxLabel"> Wind Direction (degrees)   </label> <span id="windDirBox" class="txtBox"> </span>   </p>  
+  
+    </div>
+
+</div>
+
+
+    <script src="api.js">  </script>
+
+    
+</body>
+
+
+</html>
